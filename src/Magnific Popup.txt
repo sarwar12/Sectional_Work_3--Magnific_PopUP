@@ -1,0 +1,20 @@
+### Date Picker:
+	https://www.dimsemenov.coooooooom/pluigns/magnific-popup/
+### Include file:
+	1) magnific-popup.css
+	2) jquery-3.4.1.min.js (Any version)
+	3) jquery.magnific-popup.min.js
+	4) active.js (Active your plugin)
+
+### Html Markup:
+	<a class="mfp-iframe video-play-btn" href="assets/StartMenu_Win8.mp4">
+	      <i class="fas fa-play"></i>
+	</a>
+
+### active.js Markup:
+	$(document).ready(function($){
+	      $(".video-play-btn").magnificPopup({
+		type:'video',
+	            (or) type: 'image'
+	      });
+	});
